@@ -1,4 +1,6 @@
+import Hero from "../../Component/common/Hero"
 import Header from "../../Component/common/header"
+
 
 
 function HomePage(){
@@ -7,6 +9,7 @@ function HomePage(){
             <header>
                 <Header page="Home"/>
             </header>
+            <Hero />
         </>
     )
 }

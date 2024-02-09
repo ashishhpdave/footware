@@ -1,7 +1,7 @@
 import './CSS/style.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import HomePage from "./Page/Home"
-
+import './js/jquery.flexslider-min'
 function Root(){
     return(
         <>
