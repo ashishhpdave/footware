@@ -220,8 +220,7 @@
   button,
   html [type="button"],
   [type="reset"],
-  [type="submit"] {
-    -webkit-appearance: button; }
+  
   
   button::-moz-focus-inner,
   [type="button"]::-moz-focus-inner,
@@ -4339,7 +4338,8 @@
     padding: 0;
     background-color: transparent;
     border: 0;
-    -webkit-appearance: none; }
+  
+   }
   
   .modal-open {
     overflow: hidden; }
@@ -8410,7 +8410,7 @@
             position: absolute;
             right: 0px;
             font-family: 'icomoon';
-            speak: none;
+            /* speak: none; */
             font-style: normal;
             font-weight: normal;
             font-variant: normal;
@@ -8727,9 +8727,13 @@
     margin: 0 !important; }
   
     .footimage{
-        width: 100%;
+        width: 103%;
         height: 750px;
-        background-image: cover;
+        padding: 0px;
+        margin: 0px;
+        margin-left: -40px;
+        background-size: cover;
+        /* background-image: cover; */
     }
   .colorlib-loader {
     position: fixed;
@@ -8741,5 +8745,5 @@
     background: url(/public/images/loader.gif) center no-repeat #fff; }
   
   .js .animate-box {
-    opacity: 0; }
+    opacity:  0; }
   

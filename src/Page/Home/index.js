@@ -2,7 +2,6 @@ import Hero from "../../Component/common/Hero"
 import Header from "../../Component/common/header"
 
 
-
 function HomePage(){
     return(
         <>
