@@ -1,5 +1,6 @@
 import Hero from "../../Component/common/Hero"
 import Header from "../../Component/common/header"
+import Introtext from "../../Component/introtext"
 
 
 function HomePage(){
@@ -9,6 +10,7 @@ function HomePage(){
                 <Header page="Home"/>
             </header>
             <Hero />
+            <Introtext />
         </>
     )
 }
