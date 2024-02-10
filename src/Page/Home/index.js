@@ -1,6 +1,8 @@
 import Hero from "../../Component/common/Hero"
 import Header from "../../Component/common/header"
+import ProductFilter from "../../Component/common/productFilter"
 import Introtext from "../../Component/introtext"
+import ProductRowMain from "../../Component/productRow"
 
 
 function HomePage(){
@@ -11,6 +13,8 @@ function HomePage(){
             </header>
             <Hero />
             <Introtext />
+            <ProductFilter />
+            <ProductRowMain />
         </>
     )
 }
