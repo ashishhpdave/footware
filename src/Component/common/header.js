@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom"
 
-function Header(){
+function Header(page){
     return(
         <>
         <div>
@@ -23,17 +23,8 @@ function Header(){
 					<div className="row">
 						<div className="col-sm-12 text-left menu-1">
 							<ul>
-								<li className="active"><NavLink to="#">Home</NavLink></li>
-								<li className="has-dropdown">
-									<NavLink to="men.html">Men</NavLink>
-									<ul className="dropdown">
-										<li><NavLink to="product-detail.html">Product Detail</NavLink></li>
-										<li><NavLink to="cart.html">Shopping Cart</NavLink></li>
-										<li><NavLink to="checkout.html">Checkout</NavLink></li>
-										<li><NavLink to="order-complete.html">Order Complete</NavLink></li>
-										<li><NavLink to="add-to-wishlist.html">Wishlist</NavLink></li>
-									</ul>
-								</li>
+								<li className={page === 'Home' ? 'active' : 'active'}><NavLink to="/">Home</NavLink></li>
+								<li className={page === 'Men' ? 'has-dropdown' : 'has-dropdown'}><NavLink to="/men">Men</NavLink></li>
 								<li><NavLink to="women.html">Women</NavLink></li>
 								<li><NavLink to="about.html">About</NavLink></li>
 								<li><NavLink to="contact.html">Contact</NavLink></li>

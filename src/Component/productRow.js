@@ -84,7 +84,8 @@ const ProductItemDynamic = [
     },
 
 ]
-function ProductRowMain(){
+function ProductRowMain(item){
+    const {title} = item
     return(
         <>
             
@@ -92,7 +93,7 @@ function ProductRowMain(){
 			<div className="container">
 				<div className="row">
 					<div className="col-sm-8 offset-sm-2 text-center colorlib-heading">
-						<h2>Best Sellers</h2>
+						<h2>{title}</h2>
 					</div>
 				</div>
 				<div className="row row-pb-md">
