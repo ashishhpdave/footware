@@ -8320,7 +8320,10 @@
       max-width: 50%; } }
   
   #colorlib-footer {
-    padding: 7em 0 0 0; }
+    padding: 7em 0 0 0;
+    width: 98%;
+    margin-left: 12px;
+  }
     #colorlib-footer .colorlib-footer-links {
       padding: 0;
       margin: 0; }
