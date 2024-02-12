@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom"
-
+import { FiSearch } from "react-icons/fi";
 function Header(page){
     return(
         <>
@@ -15,7 +15,7 @@ function Header(page){
 			            <form action="#" className="search-wrap">
 			               <div className="form-group">
 			                  <input type="search" className="form-control search" placeholder="Search"/>
-			                  <button className="btn btn-primary submit-search text-center" type="submit"><i className="icon-search"></i></button>
+			                  <button className="btn btn-primary submit-search text-center" type="submit"><i className=""><FiSearch /></i></button>
 			               </div>
 			            </form>
 			         </div>
@@ -28,9 +28,7 @@ function Header(page){
 								<li className={page === 'men' ? 'has-dropdown' : 'has-dropdown'}><NavLink to="/women">Women</NavLink></li>
 								<li className={page === 'women' ? 'has-dropdown' : 'has-dropdown'}><NavLink to="/about">About</NavLink></li>
 								<li className={page === 'about' ? 'has-dropdown' : 'has-dropdown'}><NavLink to="/contact">Contact</NavLink></li>
-							
-								
-								<li className="cart"><NavLink to="cart.html"><i className="icon-shopping-cart"></i> Cart [0]</NavLink></li>
+								<li className={page === 'contact' ? ' cart icon-shopping-cart' : ' cart icon-shopping-cart'}><NavLink to="/cart">Cart[0]</NavLink></li>
 							</ul>
 						</div>
 					</div>

@@ -6,6 +6,7 @@ import MenPage from './Page/Man'
 import WomenPage from './Page/Women'
 import AboutPage from './Page/About'
 import ContactPage from './Page/Contact'
+import CartPage from './Page/Cart'
 function Root(){
     return(
         <>
@@ -16,6 +17,7 @@ function Root(){
                     <Route path="/women" element={<WomenPage />}/>
                     <Route path="/about" element={<AboutPage />}/>
                     <Route path="/contact" element={<ContactPage />}/>
+                    <Route path="/cart" element={<CartPage />}/>
                 </Routes>
             </BrowserRouter>
         </>

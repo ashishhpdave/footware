@@ -7920,20 +7920,21 @@
         color: #88c8bc; }
   
   .product-cart, .product-name {
-    width: 100%;
-    display: block;
+    width: 90%;
+    /* display: block; */
     float: left;
+    margin-left: 90px;
     border-bottom: 1px solid #e6e6e6;
-    padding-bottom: 1em;
+    /* padding-bottom: 1em; */
     margin-bottom: 1em; }
     .product-cart .one-forth, .product-name .one-forth {
-      width: calc(100% - 520px);
+      width: calc(90% - 470px);
       height: 100px !important;
-      display: table;
+      /* display: table; */
       float: left; }
       @media (max-width: 767.98px) {
         .product-cart .one-forth, .product-name .one-forth {
-          width: calc(100% - 240px); } }
+          width: calc(80% - 240px); } }
     .product-cart .one-eight, .product-name .one-eight {
       width: 130px;
       height: 100px !important;
@@ -7946,7 +7947,7 @@
       display: table-cell;
       vertical-align: middle;
       height: 100px;
-      width: 100%; }
+      width: 80%; }
       .product-cart .display-tc h3, .product-name .display-tc h3 {
         margin-bottom: 0;
         padding-left: 30px;
@@ -7998,7 +7999,7 @@
     padding: .8em 0;
     background: #f0f0f0;
     border: none;
-    width: 100%;
+    width: 90%;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
@@ -8047,7 +8048,7 @@
     background: whitesmoke;
     padding: 2em 3em;
     float: left;
-    width: 100%;
+    width: 90%;
     margin-bottom: 20px; }
     @media (max-width: 767.98px) {
       .cart-detail {
@@ -8056,13 +8057,13 @@
       font-size: 20px;
       margin-bottom: 40px; }
     .cart-detail ul {
-      width: 100%;
+      width: 90%;
       padding: 0;
       float: left;
       margin: 0; }
       .cart-detail ul li {
         font-weight: 400;
-        width: 100%;
+        width: 90%;
         display: block;
         float: left; }
         .cart-detail ul li span {
@@ -8078,7 +8079,7 @@
   
   .colorlib-form {
     background: whitesmoke;
-    padding: 2em;
+    /* padding: 2em; */
     margin-bottom: 30px; }
     @media (max-width: 767.98px) {
       .colorlib-form {
@@ -8765,4 +8766,5 @@
 
     .getInTouch{
       margin-left: 50px;
+      display: flex;
     }
