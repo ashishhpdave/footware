@@ -25,6 +25,69 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
+"@angular/animations@^6.1.0":
+  version "6.1.10"
+  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-6.1.10.tgz#4ab9b9a6c25e0cca781588700daa9efc33a722e4"
+  integrity sha512-dd/lq7kw3uwfHPICan8psu2nthuUpp7PvMLuNIm0XxObZ4oNs0ls6uxKEDPnEkRKoGdiJpvmsyzZZN9ACMPEAA==
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/common@^6.1.0":
+  version "6.1.10"
+  resolved "https://registry.yarnpkg.com/@angular/common/-/common-6.1.10.tgz#96e01564031b23cf54e4264e4c9defd6e10a0e11"
+  integrity sha512-73xxTSYJNKfiJ7C1Ajg+sz5l8y+blb/vNgHYg7O3yem5zLBnfPpidJ1UGg4W4d2Y+jwUVJbZKh8SKJarqAJVUQ==
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/compiler@^6.1.0":
+  version "6.1.10"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-6.1.10.tgz#6ab35c8584fbda13a6708df14b8b03cc8f849a94"
+  integrity sha512-FPIb2j3zfoBwb6vo/u0gQeu70h8InGlSisBr3xMACs/35/pwB6kbQR+JQiUr0D7k6QApg7AuMkvq8aFNelg0aw==
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/core@^6.1.0":
+  version "6.1.10"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-6.1.10.tgz#9f3d8b7e44ec0a68c88745d25a920f98bfb2bc43"
+  integrity sha512-61l3rIQTVdT45eOf6/fBJIeVmV10mcrxqS4N/1OWkuDT29YSJTZSxGcv8QjAyyutuhcqWWpO6gVRkN07rWmkPg==
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/forms@^6.1.0":
+  version "6.1.10"
+  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-6.1.10.tgz#c9cd0f716cf91272e8e09e17a51fc20313df31b0"
+  integrity sha512-zAPx2kMV1/FbP5DrY472Sd/ze1m+GS6T5ullZCtP392r62p2RkwzDCXieR51YiRJjZj3M6c3AcRND7PWBdXT7A==
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/http@^6.1.0":
+  version "6.1.10"
+  resolved "https://registry.yarnpkg.com/@angular/http/-/http-6.1.10.tgz#91239b27990b992cdb312056d3f11cc804bfeaf4"
+  integrity sha512-LDsSqyexh8fj23y+G2oSGLWSZVhbxBBo2ehYHnRgH/jlp0pmZVLRaGgUMNSCVtZc1rxLzpEjZjtw+P+qlutAtw==
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/platform-browser-dynamic@^6.1.0":
+  version "6.1.10"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-6.1.10.tgz#f7e192454e221cbe25ab0b8dc250bad4f6a2605b"
+  integrity sha512-DmBSUyFPoyKqkmBXyJ2CrP1oXDioeoBlPA8lmWUDUv2yBuoHIzIkdY/OkTZbdyu/QYa1hK2Jl9OlfoeoenKddg==
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/platform-browser@^6.1.0":
+  version "6.1.10"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-6.1.10.tgz#ef9d6408db7ae9443daa355f3655adeb496f1216"
+  integrity sha512-CB7pqMwtgb7KjdHDAJlsXcs0rrU+2xQVaoOaqEfJtUrKhtGMLaZh8Qoic5l92SoGattkOw7SYarAOsWlAsVfvw==
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/router@^6.1.0":
+  version "6.1.10"
+  resolved "https://registry.yarnpkg.com/@angular/router/-/router-6.1.10.tgz#c7ee00897f6659b08378ea08d153d6f4c718004e"
+  integrity sha512-tekI3dkdvd65oMoxjjgRA+16uDgPUBWHhYxids6pgO8vobZNtCo8VaVlcDyLUhdmtS5kONELx0iL5E2M0Y2Bag==
+  dependencies:
+    tslib "^1.9.0"
+
 "@apideck/better-ajv-errors@^0.3.1":
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/@apideck/better-ajv-errors/-/better-ajv-errors-0.3.6.tgz#957d4c28e886a64a8141f7522783be65733ff097"
@@ -1676,6 +1739,11 @@
     loader-utils "^2.0.4"
     schema-utils "^3.0.0"
     source-map "^0.7.3"
+
+"@react-leaflet/core@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@react-leaflet/core/-/core-2.1.0.tgz#383acd31259d7c9ae8fb1b02d5e18fe613c2a13d"
+  integrity sha512-Qk7Pfu8BSarKGqILj4x7bCSZ1pjuAPZ+qmRwH5S7mDS91VSbVVsJSrW4qA+GPrro8t69gFYVMWb1Zc4yFmPiVg==
 
 "@remix-run/router@1.15.0":
   version "1.15.0"
@@ -3432,6 +3500,11 @@ core-js-pure@^3.23.3:
   resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.35.1.tgz#f33ad7fdf9dddae260339a30e5f8363f5c49a3bc"
   integrity sha512-zcIdi/CL3MWbBJYo5YCeVAAx+Sy9yJE9I3/u9LkFABwbeaPhTMRWraM8mYFp9jW5Z50hOy7FVzCc8dCrpZqtIQ==
 
+core-js@^2.5.4:
+  version "2.6.12"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
+  integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
+
 core-js@^3.19.2:
   version "3.35.1"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.35.1.tgz#9c28f8b7ccee482796f8590cc8d15739eaaf980c"
@@ -4962,6 +5035,24 @@ globby@^11.0.4, globby@^11.1.0:
     merge2 "^1.4.1"
     slash "^3.0.0"
 
+google-map-app@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/google-map-app/-/google-map-app-0.0.0.tgz#e2c31c5a2f980f8ca9536e3ccea24fb405d2fc58"
+  integrity sha512-3KGT30OsQWM0rYCuIe26VbFb8uPsE/PZm7UknTvO76zwnpTo23Pkj9WM3gnEiRSaPtx0UkNucNMBlXseDqUJag==
+  dependencies:
+    "@angular/animations" "^6.1.0"
+    "@angular/common" "^6.1.0"
+    "@angular/compiler" "^6.1.0"
+    "@angular/core" "^6.1.0"
+    "@angular/forms" "^6.1.0"
+    "@angular/http" "^6.1.0"
+    "@angular/platform-browser" "^6.1.0"
+    "@angular/platform-browser-dynamic" "^6.1.0"
+    "@angular/router" "^6.1.0"
+    core-js "^2.5.4"
+    rxjs "~6.2.0"
+    zone.js "~0.8.26"
+
 gopd@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/gopd/-/gopd-1.0.1.tgz#29ff76de69dac7489b7c0918a5788e56477c332c"
@@ -6345,6 +6436,11 @@ launch-editor@^2.6.0:
   dependencies:
     picocolors "^1.0.0"
     shell-quote "^1.8.1"
+
+leaflet@^1.9.4:
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-1.9.4.tgz#23fae724e282fa25745aff82ca4d394748db7d8d"
+  integrity sha512-nxS1ynzJOmOlHp+iL3FyWqK89GtNL8U8rvlMOsQdTTssxZwCXh8N2NB3GDQOL+YR3XnWyZAxwQixURb+FA74PA==
 
 leven@^3.1.0:
   version "3.1.0"
@@ -7881,6 +7977,13 @@ react-is@^18.0.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
+react-leaflet@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/react-leaflet/-/react-leaflet-4.2.1.tgz#c300e9eccaf15cb40757552e181200aa10b94780"
+  integrity sha512-p9chkvhcKrWn/H/1FFeVSqLdReGwn2qmiobOQGO3BifX+/vV/39qhY8dGqbdcPh1e6jxh/QHriLXr7a4eLFK4Q==
+  dependencies:
+    "@react-leaflet/core" "^2.1.0"
+
 react-refresh@^0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.11.0.tgz#77198b944733f0f1f1a90e791de4541f9f074046"
@@ -8211,6 +8314,13 @@ run-parallel@^1.1.9:
   integrity sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==
   dependencies:
     queue-microtask "^1.2.2"
+
+rxjs@~6.2.0:
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.2.2.tgz#eb75fa3c186ff5289907d06483a77884586e1cf9"
+  integrity sha512-0MI8+mkKAXZUF9vMrEoPnaoHkfzBPP4IGwUYRJhIRJF6/w3uByO1e91bEHn8zd43RdkTMKiooYKmwz7RH6zfOQ==
+  dependencies:
+    tslib "^1.9.0"
 
 safe-array-concat@^1.0.0, safe-array-concat@^1.0.1:
   version "1.1.0"
@@ -9044,7 +9154,7 @@ tsconfig-paths@^3.15.0:
     minimist "^1.2.6"
     strip-bom "^3.0.0"
 
-tslib@^1.8.1:
+tslib@^1.8.1, tslib@^1.9.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
@@ -9840,3 +9950,8 @@ yocto-queue@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
+
+zone.js@~0.8.26:
+  version "0.8.29"
+  resolved "https://registry.yarnpkg.com/zone.js/-/zone.js-0.8.29.tgz#8dce92aa0dd553b50bc5bfbb90af9986ad845a12"
+  integrity sha512-mla2acNCMkWXBD+c+yeUrBUrzOxYMNFdQ6FGfigGGtEVBPJx07BQeJekjt9DmH1FtZek4E9rE1eRR9qQpxACOQ==

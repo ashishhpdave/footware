@@ -4,6 +4,8 @@ import HomePage from "./Page/Home"
 import './js/jquery.flexslider-min'
 import MenPage from './Page/Man'
 import WomenPage from './Page/Women'
+import AboutPage from './Page/About'
+import ContactPage from './Page/Contact'
 function Root(){
     return(
         <>
@@ -12,6 +14,8 @@ function Root(){
                     <Route path="/" element={<HomePage />}/>
                     <Route path="/men" element={<MenPage />}/>
                     <Route path="/women" element={<WomenPage />}/>
+                    <Route path="/about" element={<AboutPage />}/>
+                    <Route path="/contact" element={<ContactPage />}/>
                 </Routes>
             </BrowserRouter>
         </>
