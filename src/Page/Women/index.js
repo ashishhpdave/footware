@@ -5,21 +5,23 @@ import OurPartner from "../../Component/common/ourPartnar"
 import ShoesCart from "../../Component/common/shoseCart"
 import MenHeroBar from "../../Component/menHero"
 import ProductRowMain from "../../Component/productRow"
+import WomenSlider from "../../Component/womenSlider"
 
-function MenPage(){
+function WomenPage(){
     return(
         <>
             <header>
-                <Header page="Man"/>
+                <Header page="women"/>
             </header>
-            <Breadcrumbs breadtext="Men's"/>
-            <MenHeroBar title="Men's"/>
+            <Breadcrumbs breadtext="Women's"/>
+            <MenHeroBar title="Women's"/>
             <ShoesCart />
-            <ProductRowMain title={"View All Product"}/>
+            <WomenSlider />
+            <ProductRowMain />
             <OurPartner />
             <Footer />
-        </>
+        </> 
     )
 }
 
-export default MenPage
+export default WomenPage

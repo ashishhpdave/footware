@@ -25,7 +25,7 @@ function Header(page){
 							<ul>
 								<li className={page === 'Home' ? 'active' : 'active'}><NavLink to="/">Home</NavLink></li>
 								<li className={page === 'Men' ? 'has-dropdown' : 'has-dropdown'}><NavLink to="/men">Men</NavLink></li>
-								<li><NavLink to="women.html">Women</NavLink></li>
+								<li className={page === 'women' ? 'has-dropdown' : 'has-dropdown'}><NavLink to="/women">Women</NavLink></li>
 								<li><NavLink to="about.html">About</NavLink></li>
 								<li><NavLink to="contact.html">Contact</NavLink></li>
 								<li className="cart"><NavLink to="cart.html"><i className="icon-shopping-cart"></i> Cart [0]</NavLink></li>

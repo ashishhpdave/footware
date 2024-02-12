@@ -765,6 +765,11 @@
       -ms-flex: 0 0 100%;
       flex: 0 0 100%;
       max-width: 100%; }
+      .womenFilterSlide{
+        max-width: 250px;
+        margin-left: 90px;
+        margin-top: 30px;
+      }
     .order-sm-first {
       -webkit-box-ordinal-group: 0;
       -ms-flex-order: -1;

@@ -73,7 +73,7 @@ function Footer(){
 					<div class="col-sm-12 text-center">
 						<p>
 							<span> Template is licensed under CC BY 3.0. 
-Copyright &copy; All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true">ashishhpdave</i> by <NavLink href="https://github.com/ashishhpdave?tab=repositories" target="_blank">github</NavLink>
+Copyright &copy; All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true">ashishhpdave</i> More <NavLink href="https://github.com/ashishhpdave?tab=repositories" target="_blank">github</NavLink>
  </span> 
 						</p>
 					</div>
