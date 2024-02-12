@@ -7921,7 +7921,7 @@
   
   .product-cart, .product-name {
     width: 90%;
-    /* display: block; */
+    display: block;
     float: left;
     margin-left: 90px;
     border-bottom: 1px solid #e6e6e6;
